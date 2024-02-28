@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    /* vertical items */
+    align-items: end; 
+    height: 100vh;
+    font-family: "Satisfy", cursive;
+}
+
+footer{
+    /* horizontal items */
+    justify-content: space-between;
+    display: flex;
+    background-color: black;
+    padding: 20px 0px;
+}
+
+#left{
+    width: 60%;
+    /* background-color:rgb(254, 143, 102); */
+    display: flex;
+}
+
+#right{
+    width: 30%;
+    /* background-color: rgb(108, 181, 245); */
+    display: flex;
+    border-left: 2px solid grey;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+}
+
+h3{
+    font-size: 12px;
+    color:rgb(140, 134, 134);
+}
+
+li{
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
